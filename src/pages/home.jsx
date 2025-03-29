@@ -1,13 +1,13 @@
-import Navbar from "../../../ecom_app/src/components/homecomponents/Navbar.jsx";
-import Hero from "../../../ecom_app/src/components/homecomponents/Hero.jsx";
-import LatestPhones from "../../../ecom_app/src/components/homecomponents/LatestPhones.jsx";
-import BestMobilesSection from "../../../ecom_app/src/components/homecomponents/BestMobilesSection.jsx";
-import PopularPhones from "../../../ecom_app/src/components/homecomponents/PopularPhones.jsx";
-import PopularComparisons from "../../../ecom_app/src/components/homecomponents/PopularComparisons.jsx";
-import PopularBrands from "../../../ecom_app/src/components/homecomponents/PopularBrands.jsx";
-import Footer from "../../../ecom_app/src/components/homecomponents/Footer.jsx";
-import ExploreByPrice from "../../../ecom_app/src/components/homecomponents/ExploreByPrice.jsx";
-import ExploreByFeature from "../../../ecom_app/src/components/homecomponents/ExploreByFeature.jsx";
+import Navbar from "../components/homecomponents/Navbar.jsx";
+import Hero from "../components/homecomponents/Hero.jsx";
+import LatestPhones from "../components/homecomponents/LatestPhones.jsx";
+import BestMobilesSection from "../components/homecomponents/BestMobilesSection.jsx";
+import PopularPhones from "../components/homecomponents/PopularPhones.jsx";
+import PopularComparisons from "../components/homecomponents/PopularComparisons.jsx";
+import PopularBrands from "../components/homecomponents/PopularBrands.jsx";
+import Footer from "../components/homecomponents/Footer.jsx";
+import ExploreByPrice from "../components/homecomponents/ExploreByPrice.jsx";
+import ExploreByFeature from "../components/homecomponents/ExploreByFeature.jsx";
 
 export default function Home() {
   return (

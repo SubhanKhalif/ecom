@@ -18,12 +18,22 @@ export default function Navbar() {
             {/* First Line - Logo, Search, Profile */}
             <div className="flex gap-[32px] justify-between items-center h-[72px]">
               {/* Logo */}
-              gadgets
               <a 
-                title="Beebom Logo" 
+                title="Gadgets Logo" 
                 className="flex items-center h-full" 
                 href="/"
               >
+                <picture style={{ contentVisibility: 'auto' }}>
+                  <img 
+                    src="https://cdn.beebom.com/images/logos/NavbarLogo.png" 
+                    alt="gadgets logo" 
+                    width="256" 
+                    height="46" 
+                    className="w-[128px] h-[23px]" 
+                    loading="eager" 
+                    decoding="async" 
+                  />
+                </picture>
               </a>
 
               {/* Search Bar */}
@@ -219,14 +229,14 @@ export default function Navbar() {
                     <div className="flex justify-between items-center gap-[8px] w-full overflow-hidden transition-all duration-300 ease-in-out">
                       {/* Mobile Logo */}
                       <a 
-                        title="Beebom Logo" 
+                        title="Gadgets Logo" 
                         className="flex items-center h-full peer" 
                         href="/"
                       >
                         <picture style={{ contentVisibility: 'auto' }}>
                           <img 
                             src="https://cdn.beebom.com/images/logos/NavbarLogo.png" 
-                            alt="gadget beebom logo" 
+                            alt="gadgets logo" 
                             width="256" 
                             height="46" 
                             className="w-[128px] h-[23px]" 
@@ -243,16 +253,7 @@ export default function Navbar() {
                           aria-label="menu-icon"
                           onClick={() => setIsMobileNavOpen(true)}
                         >
-                          <picture style={{ contentVisibility: 'auto' }}>
-                            <img 
-                              src="https://cdn.beebom.com/images/icons/navbar-menu-icon.svg" 
-                              alt="menu-icon" 
-                              width="20" 
-                              height="20" 
-                              loading="lazy" 
-                              decoding="async" 
-                            />
-                          </picture>
+                          <FiMenu className="text-[24px] text-[#494949]" />
                         </button>
                       </div>
                     </div>
