@@ -1,4 +1,4 @@
-function PriceComparison() {
+export const PriceComparison = () => {
     return (
       <div className="bg-white p-6 rounded-lg shadow-md mt-4">
         <h3 className="text-xl font-semibold">Price Comparison</h3>
@@ -12,4 +12,3 @@ function PriceComparison() {
   }
   
   export default PriceComparison;
-  

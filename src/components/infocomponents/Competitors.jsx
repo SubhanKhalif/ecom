@@ -1,4 +1,4 @@
-function Competitors() {
+export const Competitors = () => {
     return (
       <div className="bg-white p-6 rounded-lg shadow-md mt-4">
         <h3 className="text-xl font-semibold">Competitors</h3>
@@ -15,4 +15,3 @@ function Competitors() {
   }
   
   export default Competitors;
-  

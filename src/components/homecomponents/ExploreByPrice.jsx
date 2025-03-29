@@ -1,6 +1,4 @@
-import React from "react";
-
-const ExploreByPrice = () => {
+export default function ExploreByPrice() {
   const priceCategories = [
     { name: "Under ₹10,000", href: "/best-phones-under-10000" },
     { name: "Under ₹15,000", href: "/best-phones-under-15000" },
@@ -31,6 +29,4 @@ const ExploreByPrice = () => {
       </div>
     </section>
   );
-};
-
-export default ExploreByPrice;
+}

@@ -1,12 +1,12 @@
-import Header from "../components/homecomponents/Navbar";
-import PhoneDetails from "../components/infocomponents/PhoneDetails";
-import Specifications from "../components/infocomponents/Specifications";
-import PriceComparison from "../components/infocomponents/PriceComparison";
-import Alternatives from "../components/infocomponents/Alternatives";
-import Competitors from "../components/infocomponents/Competitors";
-import Footer from "../components/homecomponents/Footer";
+import Header from "../components/homecomponents/Navbar.jsx";
+import PhoneDetails from "../components/infocomponents/PhoneDetails.jsx";
+import Specifications from "../components/infocomponents/Specifications.jsx";
+import PriceComparison from "../components/infocomponents/PriceComparison.jsx";
+import Alternatives from "../components/infocomponents/Alternatives.jsx";
+import Competitors from "../components/infocomponents/Competitors.jsx";
+import Footer from "../components/homecomponents/Footer.jsx";
 
-function PhoneInfoPage() {
+export const PhoneInfoPage = () => {
   return (
     <div className="bg-gray-100">
       <Header />
@@ -20,6 +20,6 @@ function PhoneInfoPage() {
       <Footer />
     </div>
   );
-}
+};
 
 export default PhoneInfoPage;

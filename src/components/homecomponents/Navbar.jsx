@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import MobileNavbar from "./MobileNavbar";
-import { FiMenu } from "react-icons/fi";
-import { FaSearch, FaChevronDown, FaChevronRight } from "react-icons/fa";
+import React, { useState } from 'react';
+import MobileNavbar from './MobileNavbar';
+import { FiMenu } from 'react-icons/fi';
+import { FaSearch, FaChevronDown, FaChevronRight } from 'react-icons/fa';
 
-const Navbar = () => {
+export default function Navbar() {
   const [isExploreOpen, setIsExploreOpen] = useState(false);
   const [isPriceOpen, setIsPriceOpen] = useState(false);
   const [isFeatureOpen, setIsFeatureOpen] = useState(false);
@@ -288,6 +288,4 @@ const Navbar = () => {
       <div className="h-[112px] min-[900px]:h-[calc(72px+40px)]"></div>
     </nav>
   );
-};
-
-export default Navbar;
+}

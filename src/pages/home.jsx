@@ -1,16 +1,15 @@
-import React from 'react';
-import Navbar from "../../../ecom_app/src/components/homecomponents/Navbar";
-import Hero from "../../../ecom_app/src/components/homecomponents/Hero";
-import LatestPhones from "../../../ecom_app/src/components/homecomponents/LatestPhones";
-import BestMobilesSection from "../../../ecom_app/src/components/homecomponents/BestMobilesSection";
-import PopularPhones from "../../../ecom_app/src/components/homecomponents/PopularPhones";
-import PopularComparisons from "../../../ecom_app/src/components/homecomponents/PopularComparisons";
-import PopularBrands from "../../../ecom_app/src/components/homecomponents/PopularBrands";
-import Footer from "../../../ecom_app/src/components/homecomponents/Footer";
-import ExploreByPrice from "../../../ecom_app/src/components/homecomponents/ExploreByPrice";
-import ExploreByFeature from "../../../ecom_app/src/components/homecomponents/ExploreByFeature";
+import Navbar from "../../../ecom_app/src/components/homecomponents/Navbar.jsx";
+import Hero from "../../../ecom_app/src/components/homecomponents/Hero.jsx";
+import LatestPhones from "../../../ecom_app/src/components/homecomponents/LatestPhones.jsx";
+import BestMobilesSection from "../../../ecom_app/src/components/homecomponents/BestMobilesSection.jsx";
+import PopularPhones from "../../../ecom_app/src/components/homecomponents/PopularPhones.jsx";
+import PopularComparisons from "../../../ecom_app/src/components/homecomponents/PopularComparisons.jsx";
+import PopularBrands from "../../../ecom_app/src/components/homecomponents/PopularBrands.jsx";
+import Footer from "../../../ecom_app/src/components/homecomponents/Footer.jsx";
+import ExploreByPrice from "../../../ecom_app/src/components/homecomponents/ExploreByPrice.jsx";
+import ExploreByFeature from "../../../ecom_app/src/components/homecomponents/ExploreByFeature.jsx";
 
-const Home = () => {
+export default function Home() {
   return (
     <div>
       <Navbar />
@@ -28,6 +27,4 @@ const Home = () => {
       <Footer />
     </div>
   );
-};
-
-export default Home;
+}

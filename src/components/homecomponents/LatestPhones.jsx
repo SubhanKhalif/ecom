@@ -1,5 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+import { useRef, useState, useEffect } from "react";
 
 const phones = [
   { id: 1, name: "Samsung Galaxy A26 5G pro plus", price: "₹24,999", img: "https://cdn.beebom.com/mobile/samsung-galaxy-a26-5g-front-and-back-4-356w.webp" },
@@ -9,7 +8,7 @@ const phones = [
   { id: 5, name: "Oppo F29 5G", price: "₹23,999", img: "https://cdn.beebom.com/mobile/samsung-galaxy-a26-5g-front-and-back-4-356w.webp" }
 ];
 
-const LatestPhones = () => {
+export default function LatestPhones() {
   const scrollRef = useRef(null);
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
@@ -133,5 +132,4 @@ const LatestPhones = () => {
       </div>
     </section>
   );
-};
-export default LatestPhones;
+}

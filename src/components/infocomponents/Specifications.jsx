@@ -1,4 +1,4 @@
-function Specifications() {
+export const Specifications = () => {
     return (
       <div className="bg-white p-6 rounded-lg shadow-md mt-4">
         <h3 className="text-xl font-semibold">Specifications</h3>
@@ -13,4 +13,3 @@ function Specifications() {
   }
   
   export default Specifications;
-  

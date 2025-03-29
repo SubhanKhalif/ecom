@@ -1,6 +1,6 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
-const PopularPhones = () => {
+export default function PopularPhones() {
   const scrollContainer = useRef(null);
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
@@ -212,6 +212,4 @@ const PopularPhones = () => {
       </div>
     </section>
   );
-};
-
-export default PopularPhones;
+}

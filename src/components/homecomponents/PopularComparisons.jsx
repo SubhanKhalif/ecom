@@ -1,6 +1,4 @@
-import React from "react";
-
-const PopularComparisons = () => {
+export const PopularComparisons = () => {
   const comparisons = [
     { 
       model1: "iPhone 15 Pro", 

@@ -1,16 +1,15 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "../../ecom_app/src/pages/home";
-import PhoneInfoPage from "../../ecom_app/src/pages/PhoneInfoPage";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home.jsx";
+import PhoneInfoPage from "./pages/PhoneInfoPage.jsx";
 
-function App() {
+export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mobile/:phoneSlug" element={<PhoneInfoPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
-
-export default App;

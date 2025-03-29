@@ -1,4 +1,4 @@
-function PhoneDetails() {
+export const PhoneDetails = () => {
     return (
       <div className="bg-white p-6 rounded-lg shadow-md mt-4">
         <div className="flex items-center space-x-6">
@@ -20,4 +20,3 @@ function PhoneDetails() {
   }
   
   export default PhoneDetails;
-  

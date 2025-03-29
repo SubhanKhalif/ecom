@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { FiX, FiChevronDown } from "react-icons/fi";
-import { BiUserCircle } from "react-icons/bi";
+import { useState } from 'react';
+import { FiX, FiChevronDown } from 'react-icons/fi';
+import { BiUserCircle } from 'react-icons/bi';
 
-const MobileNavbar = ({ isOpen, onClose }) => {
+export default function MobileNavbar({ isOpen, onClose }) {
   const [dropdowns, setDropdowns] = useState({
     price: false,
     feature: false,
@@ -93,6 +93,4 @@ const MobileNavbar = ({ isOpen, onClose }) => {
       </div>
     </div>
   );
-};
-
-export default MobileNavbar;
+}

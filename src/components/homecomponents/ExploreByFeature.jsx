@@ -1,6 +1,4 @@
-import React from "react";
-
-const ExploreByFeature = () => {
+export default function ExploreByFeature() {
   const featureCategories = [
     { name: "5G Phones", href: "/5g-phones" },
     { name: "Gaming Phones", href: "/best-gaming-phones" },
@@ -31,6 +29,4 @@ const ExploreByFeature = () => {
       </div>
     </section>
   );
-};
-
-export default ExploreByFeature;
+}

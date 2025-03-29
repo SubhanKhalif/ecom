@@ -1,6 +1,6 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
-const PopularBrands = () => {
+export default function PopularBrands() {
   const brands = [
     { name: "Apple", href: "/mobile-brands/apple" },
     { name: "Samsung", href: "/mobile-brands/samsung" },
@@ -152,6 +152,4 @@ const PopularBrands = () => {
       </div>
     </section>
   );
-};
-
-export default PopularBrands;
+}

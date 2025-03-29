@@ -1,6 +1,4 @@
-import React from "react";
-
-const Hero = () => {
+export default function Hero() {
   return (
     <section className="w-full flex items-center justify-center pt-10 pb-14 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
       <div className="w-full max-w-7xl bg-gradient-to-r from-[#0a1f44] via-[#1f3b70] to-[#d97706] rounded-2xl p-8 md:p-12 lg:p-16 text-center shadow-2xl hover:shadow-3xl transition-shadow duration-300">
@@ -23,6 +21,4 @@ const Hero = () => {
       </div>
     </section>
   );
-};
-
-export default Hero;
+}

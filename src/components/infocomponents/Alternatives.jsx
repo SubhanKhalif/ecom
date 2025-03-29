@@ -1,4 +1,4 @@
-function Alternatives() {
+export const Alternatives = () => {
     return (
       <div className="bg-white p-6 rounded-lg shadow-md mt-4">
         <h3 className="text-xl font-semibold">Alternatives</h3>
@@ -14,5 +14,4 @@ function Alternatives() {
     );
   }
   
-  export default Alternatives;
-  
+export default Alternatives;
