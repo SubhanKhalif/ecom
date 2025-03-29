@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from "../components/homecomponents/Navbar";
-import Hero from "../components/homecomponents/Hero";
-import LatestPhones from "../components/homecomponents/LatestPhones";
-import BestMobilesSection from "../components/homecomponents/BestMobilesSection";
-import PopularPhones from "../components/homecomponents/PopularPhones";
-import PopularComparisons from "../components/homecomponents/PopularComparisons";
-import PopularBrands from "../components/homecomponents/PopularBrands";
-import Footer from "../components/homecomponents/Footer";
-import ExploreByPrice from "../components/homecomponents/ExploreByPrice";
-import ExploreByFeature from "../components/homecomponents/ExploreByFeature";
+import Navbar from "../../../ecom_app/src/components/homecomponents/Navbar";
+import Hero from "../../../ecom_app/src/components/homecomponents/Hero";
+import LatestPhones from "../../../ecom_app/src/components/homecomponents/LatestPhones";
+import BestMobilesSection from "../../../ecom_app/src/components/homecomponents/BestMobilesSection";
+import PopularPhones from "../../../ecom_app/src/components/homecomponents/PopularPhones";
+import PopularComparisons from "../../../ecom_app/src/components/homecomponents/PopularComparisons";
+import PopularBrands from "../../../ecom_app/src/components/homecomponents/PopularBrands";
+import Footer from "../../../ecom_app/src/components/homecomponents/Footer";
+import ExploreByPrice from "../../../ecom_app/src/components/homecomponents/ExploreByPrice";
+import ExploreByFeature from "../../../ecom_app/src/components/homecomponents/ExploreByFeature";
 
 const Home = () => {
   return (

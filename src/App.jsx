@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import PhoneInfoPage from "./pages/PhoneInfoPage";
-import "./index.css";
+import Home from "../../ecom_app/src/pages/home";
+import PhoneInfoPage from "../../ecom_app/src/pages/PhoneInfoPage";
 
 function App() {
   return (
