@@ -1,6 +1,6 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
-const BestMobilesSection = () => {
+export default function BestMobilesSection({ title }) {
   const scrollRef = useRef(null);
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
@@ -45,11 +45,11 @@ const BestMobilesSection = () => {
       <div className="shadow-mobile-gray-card-shadow bg-[#F8F8F8] px-[16px] py-[16px] md:px-[32px] md:py-[32px] rounded-[16px] md:rounded-[36px]">
         <div className="flex gap-[24px] items-center justify-between">
           <h2 className="text-[#3c3c3c] text-[20px] md:text-[28px] font-semibold font-figtree break-normal">
-            Best Mobile Phones Under <span className="gradient-text-primary">10000</span>
+            {title}
           </h2>
           <a 
             className="flex items-center gap-[8px] text-[#1d2838] md:px-[16px] md:py-[10px] md:border md:border-[#cfd4dc] md:rounded-[8px] text-[14px] font-semibold text-nowrap"
-            href="/best-phones-under-10000"
+            href={`/best-phones-${title.toLowerCase().replace(/[^a-z0-9]/g, '-')}`}
           >
             View all 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1d2838" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -122,6 +122,4 @@ const BestMobilesSection = () => {
       </div>
     </section>
   );
-};
-
-export default BestMobilesSection;
+}
